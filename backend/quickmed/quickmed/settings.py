@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-     "users",
+    "users",
     "rest_framework",
     "corsheaders",
     'Home',
@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'quickmed.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'quickmed',          # your database name
+        'NAME': 'db',          # your database name
         'USER': 'postgres',          # default postgres superuser
         'PASSWORD':'1234', # enter your postgres password
         'HOST': 'localhost',
