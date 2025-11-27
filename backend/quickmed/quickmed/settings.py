@@ -82,7 +82,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'quickmed',          # your database name
         'USER': 'postgres',          # default postgres superuser
-        'PASSWORD': '1234', # enter your postgres password
+        'PASSWORD':'1234', # enter your postgres password
         'HOST': 'localhost',
         'PORT': '5432',
     }
